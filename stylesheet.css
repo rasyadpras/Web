@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    font-family: Roboto, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(238, 242, 230);
+  }
+
+header {
+    width: 100%;
+    padding: 0 25px;
+    margin: 0 auto;
+    height: 65px;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+header p {
+    float: left;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Bangers', cursive;
+  }
+
+nav {
+    float: right;
+    margin-right: -25px;
+    text-decoration: none;
+  }
+
+nav a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+.beranda {
+  padding: 120px 0 160px 0;
+  background-image: url(https://anekatempatwisata.com/wp-content/uploads/2021/05/Keraton-Yogyakarta.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.beranda h1 {
+  color: black;
+  font-size: 45px;
+  letter-spacing: 8px;
+  margin-bottom: 2px;
+}
+
+.beranda h2 {
+  font-size: 25px;
+  color:black;
+  letter-spacing: 3px;
+  margin-bottom: 3px;
+}
+
+.sejarah {
+  padding: 10px 40px 30px 40px;
+  text-align: center;
+  background-color: rgb(214, 205, 164);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.sejarah h1 {
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.sejarah p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.sejarah span {
+  position: relative;
+}
+
+.wisata {
+  margin: 10px 0px;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.wisata h1 {
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: black;
+}
+
+.tempat {
+  width: 100%;
+  height: 210px;
+}
+
+.tempat h1 {
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding-top: 15%;
+}
+
+.tempat div {
+  float: left;
+  width: 23%;
+  background-color: azure;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 1%;
+  margin-right: 1%;
+  border-radius: 8px;
+  height: 200px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.tugu {
+  background-image: url(https://factsofindonesia.com/wp-content/uploads/2017/11/Tugu-Yogyakarta-1280x720.jpg);
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+}
+
+.keraton {
+  background-image: url(https://asset-a.grid.id//crop/0x0:0x0/700x465/photo/2019/12/19/3533564499.jpg);
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+}
+
+.taman {
+  background-image: url(https://storage.googleapis.com/allindonesiatoursim/2017/04/water-castle-yogyakarta-Indonesia.jpg);
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+}
+
+.benteng {
+  background-image: url(https://pbs.twimg.com/media/Ee3FdbsU8AAzTTG.jpg);
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgb(61, 131, 97);
+}
+
+footer p {
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Bangers', cursive;
+  margin-left: 10%;
+}
+
+aside {
+  width: 55%;
+  margin: auto;
+  padding: 10px 0px 30px 0px;
+  text-align: center;
+  background-color: rgb(214, 205, 164);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+aside h1 {
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: black;
+}
+
+.id {
+  width: 100%;
+}
+
+.foto {
+  object-position: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.foto img {
+  width: 100%;
+  object-position: center;
+}
+
+.id p {
+  text-align: justify;
+  width: 85%;
+  margin: auto;
+  padding: 5%;
+}
