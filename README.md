@@ -15,6 +15,6 @@ Proyek ini dibangun sebagai proyek akhir di kelas [Belajar Dasar Pemrograman Web
 
 Rating : ⭐⭐⭐⭐
 
-Preview link : [Profile Web](https://rasyadpras.github.io/nyam-recipeapp/)
+Preview link : [Profile Web](https://rasyadpras.github.io/Web/)
 
 Dokumen Pendukung : [Sertifikat](https://www.dicoding.com/certificates/MRZMDMQJ3ZYQ)
